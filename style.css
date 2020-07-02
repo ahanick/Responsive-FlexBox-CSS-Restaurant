@@ -95,9 +95,10 @@ background: #fada3e;
     {
         width: 50%;
     }
+}  
 
-  
-   
+
+
 @media (max-width: 600px)
 {
     .container .card 
@@ -105,20 +106,20 @@ background: #fada3e;
     flex-direction: column;
     margin: 10px 0;
    }
-}
+  
 
-.container .card:nth-child(even)
-{
+  .container .card:nth-child(even)
+  {
     flex-direction: column;
-}
+  }
 
-.container .card .imgBx
-.container .card .content 
-{
-   width: 100%
-}
-.container .card .content 
-{
+  .container .card .imgBx,
+  .container .card .content 
+  {
+   width: 100%;
+  }
+ .container .card .content 
+  {
     height: 200px;
-}
-}
+  }
+} 
